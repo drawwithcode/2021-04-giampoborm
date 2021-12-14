@@ -1,8 +1,30 @@
-html, body {
+html,
+body {
   margin: 0;
   padding: 0;
 }
 
 canvas {
   display: block;
+}
+
+.immagini {
+  z-index: 1;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  content: url(./assets/emanuele0.png);
+}
+.immagini1 {
+  z-index: 1;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  content: url(./assets/emanuele1.png);
+}
+
+.bottone {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
